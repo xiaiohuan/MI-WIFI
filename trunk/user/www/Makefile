@@ -6,10 +6,10 @@ ROMFS_DIR = $(ROOTDIR)/romfs
 
 include $(ROOTDIR)/user/shared/boards.mk
 
-PROJECT_HOME_URL="https:\/\/bitbucket.org\/padavan\/rt-n56u\/"
-PROJECT_HOME_URL_MOD="https:\/\/github.com\/hanwckf\/rt-n56u\/"
+PROJECT_HOME_URL="https:\/\/github.com\/xiaiohuan\/MI-WIF\/I"
+PROJECT_HOME_URL_MOD="https:\/\/github.com\/xiaiohuan\/MI-WIFI\/"
 
-LABEL_COPYRIGHT_TEXT='© 2019-2021 <a href="https:\/\/yuos.top" target="blank">小渔博客<\/a> \& <a href="https:\/\/github.com\/yuos-bit\/Padavan" target="blank"> Github<\/a> \& by <a href="https:\/\/space.bilibili.com\/318787487" target="blank">小渔<\/a>'
+LABEL_COPYRIGHT_TEXT='© 2019-2021 <a href="https:\/\/github.com\/xiaiohuan\/MI-WIFI" target="blank">Padavan<\/a> \& N56U project community \& by <a href="https:\/\/github.com\/xiaiohuan\/MI-WIFI" target="blank">小丶浣<\/a>'
 
 BOARD_PATTERN=s/ZVMODELVZ/$(CONFIG_FIRMWARE_PRODUCT_ID)/g
 COPYR_PATTERN=s/ZVCOPYRVZ/$(LABEL_COPYRIGHT_TEXT)/g
