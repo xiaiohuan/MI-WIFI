@@ -6,7 +6,7 @@ ROMFS_DIR = $(ROOTDIR)/romfs
 
 include $(ROOTDIR)/user/shared/boards.mk
 
-PROJECT_HOME_URL="https:\/\/github.com\/xiaiohuan\/MI-WIF\/I"
+PROJECT_HOME_URL="https:\/\/github.com\/xiaiohuan\/MI-WIFI\/"
 PROJECT_HOME_URL_MOD="https:\/\/github.com\/xiaiohuan\/MI-WIFI\/"
 
 LABEL_COPYRIGHT_TEXT='© 2019-2021 <a href="https:\/\/github.com\/xiaiohuan\/MI-WIFI" target="blank">Padavan<\/a> \& N56U project community \& by <a href="https:\/\/github.com\/xiaiohuan\/MI-WIFI" target="blank">小丶浣<\/a>'
