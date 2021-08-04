@@ -87,22 +87,22 @@ pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl
 ```
 * 克隆源码
 ```shell
-git clone --depth=1 https://github.com/xiaiohuan/MI-WIFI.git /opt/MI
-#git clone --depth=1 https://github.com/xiaiohuan/MI-WIFI.git /opt/MI
+git clone --depth=1 https://github.com/xiaiohuan/MI-WIFI.git /opt/rt-n56u
+#git clone --depth=1 https://github.com/xiaiohuan/MI-WIFI.git /opt/rt-n56u
 ```
 * 编译工具链
 ```shell
-cd /opt/MI/toolchain-mipsel
+cd /opt/rt-n56u/toolchain-mipsel
 ./clean_sources
 ./build_toolchain_3.4.x
 ```
 * (可选)修改机型配置文件
 ```shell
-nano /opt/MI/trunk/configs/templates/PSG1218.config
+nano /opt/rt-n56u/trunk/configs/templates/PSG1218.config
 ```
 * 清理代码树并开始编译
 ```shell
-cd /opt/MI/trunk
+cd /opt/rt-n56u/trunk
 sudo ./clear_tree
 fakeroot ./build_firmware_modify PSG1218
 #脚本第一个参数为路由型号，在trunk/configs/templates/中
